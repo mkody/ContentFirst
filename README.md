@@ -1,7 +1,7 @@
 ContentFirst
 ============
 
-ContentFirst a Stylish's user style resource (that allows you to modify the appearance of the websites you visit). The goal is to simplify the design of your favorite websites, in order to facilitate the reading.
+ContentFirst is a Stylish's user style resource (that allows you to modify the appearance of the websites you visit). The goal is to simplify the design of your favorite websites, in order to facilitate the reading.
 ContentFirst is communitary, so you are free to improve it.
 
 **Some advices**
