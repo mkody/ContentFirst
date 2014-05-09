@@ -19,7 +19,7 @@ Cette ressource est communautaire, donc vous pouvez la compléter en proposant u
 *   Masquez les pubs (le webmaster sera quand même content car elle seront quand même chargées)
 *   Enlevez les popups (sur la politique du site sur l'utilisation de cookies par exemple).
 
-Téléchargez Stylish pour: 
+Téléchargez Stylish pour : 
 
 *   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
 *   [Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
