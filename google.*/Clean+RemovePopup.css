@@ -1,0 +1,44 @@
+@-moz-document url-prefix(http://www.google),
+
+               url-prefix(http://images.google),
+
+               url-prefix(http://news.google),
+
+               url-prefix(http://blogsearch.google),
+
+               url-prefix(http://books.google),
+
+               url-prefix(http://209.85.165.104),
+
+               url-prefix(http://translate.google),
+
+               url-prefix(http://video.google),
+
+               url-prefix(https://encrypted.google),
+
+               url-prefix(https://www.google)
+{
+
+.pmoabs {
+    display: none !important;
+}
+#fbar {
+    display: none !important;
+}
+#gbqfbb{
+    display: none !important;
+}
+.gbqfba, .gbqfbb {
+    border: 1px solid transparent !important;
+}
+.gb_6a gb_cb gb_qa, .gb_8a{
+    display: none !important;
+}
+.gbqfba {
+    background: #ececec !important;
+}
+#gbqfsa, #gbqfsb {
+    font: bold 11px/27px Arial,sans-serif !important;
+    vertical-align: top;
+}
+}
