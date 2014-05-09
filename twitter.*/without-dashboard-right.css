@@ -4,4 +4,8 @@
     .dashboard-right {
         display: none !important;
     }
+    
+    #page-container {
+        left: 142px;
+    }
 }
