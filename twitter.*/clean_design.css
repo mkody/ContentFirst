@@ -46,8 +46,4 @@
         width: 100%;
         margin-bottom: 0 !important;
     }
-
-    .profile-header-inner, .profile-banner-footer {
-        display: block !important;
-    }
 }
