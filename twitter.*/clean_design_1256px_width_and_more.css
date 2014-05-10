@@ -1,0 +1,36 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/*
+    DESCRIPTION: Clean design for width resolution of 1256px or up;
+    SCREENSHOT: http://i.imgur.com/XIlPzbt.png;
+*/
+
+@-moz-document domain("twitter.com") {
+    * {
+        border-radius: 0 !important;
+    }
+    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input {
+        display: none !important;
+    }
+    
+    .cards-multimedia {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .DashboardProfileCard-avatarLink, .DashboardProfileCard-avatarImage {
+        border-radius: 50% !important;
+    }
+    
+    .avatar {
+        border-radius: 50% !important;
+    }
+    
+    #page-container {
+        width: 1190px !important;
+    }
+    
+    #timeline {
+        width: 880px !important;
+    }
+}
