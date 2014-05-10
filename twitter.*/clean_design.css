@@ -1,0 +1,49 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/*
+    DESCRIPTION: Clean design for Twitter.com;
+    SCREENSHOT: http://i.imgur.com/XIlPzbt.png;
+*/
+
+@-moz-document domain("twitter.com") {
+    * {
+        border-radius: 0 !important;
+    }
+    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input, .module .flex-module:not(.profile-header-inner):not(.profile-banner-footer), .profile-header-inner-overlay {
+        display: none !important;
+    }
+
+    .cards-multimedia {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .dashboard-left, .dashboard {
+        width: 24%;
+    }
+
+    .DashboardProfileCard-tweetbox {
+        width: inherit;
+    }
+
+    .DashboardProfileCard-avatarLink, .DashboardProfileCard-avatarImage {
+        border-radius: 50% !important;
+    }
+
+    .avatar {
+        border-radius: 50% !important;
+    }
+
+    .wrapper, .wrapper-narrow, .wrapper-permalink {
+        width: inherit;
+    }
+
+    #timeline, .content-main {
+        width: 74% !important;
+    }
+
+    #timeline .profile-card {
+        width: 100%;
+        margin-bottom: 0 !important;
+    }
+}
