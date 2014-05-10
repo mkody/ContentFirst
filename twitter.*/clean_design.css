@@ -34,6 +34,10 @@
         border-radius: 50% !important;
     }
 
+    .wrapper, .wrapper-narrow, .wrapper-permalink {
+        width: inherit;
+    }
+
     #timeline {
         width: 74% !important;
     }
