@@ -18,7 +18,7 @@
         padding: 0 !important;
     }
 
-    .dashboard-left {
+    .dashboard-left, .dashboard {
         width: 24%;
     }
 
@@ -38,7 +38,7 @@
         width: inherit;
     }
 
-    #timeline {
+    #timeline, .content-main {
         width: 74% !important;
     }
 
