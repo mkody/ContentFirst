@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
-    DESCRIPTION: Clean design for width resolution of 1256px or up;
+    DESCRIPTION: Clean design for Twitter.com;
     SCREENSHOT: http://i.imgur.com/XIlPzbt.png;
 */
 
@@ -9,28 +9,32 @@
     * {
         border-radius: 0 !important;
     }
-    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input {
+    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input, .module .flex-module {
         display: none !important;
     }
-    
+
     .cards-multimedia {
         margin: 0 !important;
         padding: 0 !important;
     }
-    
+
+    .dashboard-left {
+        width: 24%;
+    }
+
+    .DashboardProfileCard-tweetbox {
+        width: inherit;
+    }
+
     .DashboardProfileCard-avatarLink, .DashboardProfileCard-avatarImage {
         border-radius: 50% !important;
     }
-    
+
     .avatar {
         border-radius: 50% !important;
     }
-    
-    #page-container {
-        width: 1190px !important;
-    }
-    
+
     #timeline {
-        width: 880px !important;
+        width: 74% !important;
     }
 }
