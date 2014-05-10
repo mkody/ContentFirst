@@ -9,7 +9,7 @@
     * {
         border-radius: 0 !important;
     }
-    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input, .module .flex-module {
+    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input, .module .flex-module:not(.profile-header-inner) {
         display: none !important;
     }
 
