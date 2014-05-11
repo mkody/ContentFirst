@@ -8,6 +8,7 @@ ContentFirst is communitary, so you are free to improve it.
 
 *   Create a directory for each style/domain
 *   If a style sheet already exists for the website you want to modify, create another one in the website's directory, specifying the name of you userstyle (for instance : JustHideAds.css)
+*   Add a screenshot with the same name as the css file.
 *   Please use CSS properties that are compliants with most recent browsers (please refer to http://caniuse.com/)
 *   Add a link to a screenshot of your style in your Pull request, it'll help shorten the validation process
 
