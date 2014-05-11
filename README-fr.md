@@ -24,3 +24,4 @@ Téléchargez Stylish pour :
 
 *   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
 *   [Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
+*   [Safari](http://sobolev.us/stylish/)
