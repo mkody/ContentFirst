@@ -30,7 +30,7 @@
         border-radius: 50% !important;
     }
 
-    .avatar {
+    .avatar, .profile-card .profile-picture {
         border-radius: 50% !important;
     }
 
@@ -45,5 +45,10 @@
     #timeline .profile-card {
         width: 100%;
         margin-bottom: 0 !important;
+    }
+
+    .body.three-col .wrapper-narrow, body.three-col .wrapper-permalink {
+        max-width: 1190px;
+        width: inherit !important;
     }
 }
