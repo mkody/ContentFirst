@@ -30,7 +30,7 @@
         border-radius: 50% !important;
     }
     
-    .avatar {
+    .avatar, .profile-card .profile-picture {
         border-radius: 50% !important;
     }
     
