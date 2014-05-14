@@ -8,6 +8,7 @@ Cette ressource est communautaire, donc vous pouvez la compléter en proposant u
 
 *   Créez un dossier pour chaque site(s)/domaine(s) (exemple: monsitehideux.com/.net/.io).
 *   Si il existe déjà une feuille de style pour le site que vous voulez modifier, créez un autre fichier dans le même dossier, en spécifiant dans le nom ce qui caractérise votre style utilisateur à vous (exemple: justhideads.css).
+*   Ajoutez une image ayant le même nom que celui du fichier css.
 *   Pensez à utiliser des propriétés compatibles avec la plupart des navigateurs récents (ce site pourra vous aider :http://caniuse.com/ ).
 *   Ajoutez un lien vers une image du résultat dans la "Pull Request", ça permettra aux modérateurs de la valider plus rapidement.
 
@@ -23,3 +24,4 @@ Téléchargez Stylish pour :
 
 *   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
 *   [Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
+*   [Safari](http://sobolev.us/stylish/)

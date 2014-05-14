@@ -1,0 +1,60 @@
+@-moz-document domain("blogduwebdesign.com") {
+@namespace url(http://www.w3.org/1999/xhtml);@-webkit-document url("http://www.blogduwebdesign.com"), @-webkit-document url("http://www.blogduwebdesign.com") {
+}
+
+#header div{
+    display: inline-block !important;
+    float: left !important;
+    }
+#flag {
+    margin: 25px 15px 0px 0px;
+}
+    #optionTop{
+        height: 0px;
+        border-bottom: none;
+    }
+#network li.selectable {
+}
+.lesReseaux, .phraseActu{
+    display: none !important;
+}
+#optionTop .large-12 {
+    height: 0px;
+}
+#header div {
+    margin-top: -28px;
+    padding: 0px;
+}
+#header div:hover .pointer_bdw {
+    transform: none;
+}
+.pictoStats li {
+    font-size: 0px;
+}
+
+#aside{
+    display: none !important;
+}
+.large-8 {
+    width: 100%;
+}
+.infoPreview{
+
+}
+a.small-12.medium-6.large-6.columns{
+    max-width: 320px;
+}
+.articlePreview .footerArticlePreview {
+    width: 64%;
+    float: right !important;
+}
+#footer .large-4, .infoFooter, #blocPartenaire, #blockTwitter, #blockTwitter, #devenezMembre, #moduleFacebook {
+    display: none !important;
+}
+#lectureArticle img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+}
