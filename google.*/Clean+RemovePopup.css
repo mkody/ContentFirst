@@ -16,7 +16,22 @@
 
                url-prefix(https://encrypted.google),
 
-               url-prefix(https://www.google)
+               url-prefix(https://www.google),
+
+               url-prefix(https://images.google),
+
+               url-prefix(https://news.google),
+
+               url-prefix(https://blogsearch.google),
+
+               url-prefix(https://books.google),
+
+               url-prefix(https://209.85.165.104),
+
+               url-prefix(https://translate.google),
+
+               url-prefix(https://video.google)
+
 {
 
 .pmoabs {
