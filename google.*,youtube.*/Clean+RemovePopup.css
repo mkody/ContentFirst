@@ -30,8 +30,15 @@
 
                url-prefix(https://translate.google),
 
-               url-prefix(https://video.google)
+               url-prefix(https://video.google),
 
+               url-prefix(http://youtube)
+
+               url-prefix(https://youtube)
+
+               url-prefix(http://www.youtube)
+
+               url-prefix(https://www.youtube)
 {
 
 .pmoabs {
@@ -46,7 +53,7 @@
 .gbqfba, .gbqfbb {
     border: 1px solid transparent !important;
 }
-.gb_6a gb_cb gb_qa, .gb_8a, .gb_hb.gb_ua, .gt-hats,.jfk-butterBar-info {
+.gb_6a gb_cb gb_qa, .gb_8a, .gb_hb.gb_ua, .gt-hats,.jfk-butterBar-info, #ticker.cookie-alert {
     display: none !important;
 }
 .gbqfba {
