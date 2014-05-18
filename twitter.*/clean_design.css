@@ -9,44 +9,45 @@
     * {
         border-radius: 0 !important;
     }
-    .dashboard-right, .trends-inner, .expanded-content, .js-tweet-details-dropdown, .Icon--photo, .search-input, .module .flex-module:not(.profile-header-inner):not(.profile-banner-footer), .profile-header-inner-overlay { 
+
+    .dashboard-right, .trends-inner, .Icon--photo, .search-input, .module .flex-module:not(.profile-header-inner):not(.profile-banner-footer), .profile-header-inner-overlay { 
         display: none !important;
     }
-    
+
     .cards-multimedia {
         margin: 0 !important;
         padding: 0 !important;
     }
-    
+
     .dashboard-left, .dashboard {
         width: 24%;
     }
-    
+
     .DashboardProfileCard-tweetbox {
         width: inherit;
     }
-    
+
     .DashboardProfileCard-avatarLink, .DashboardProfileCard-avatarImage {
         border-radius: 50% !important;
     }
-    
-    .avatar {
+
+    .avatar, .profile-card .profile-picture {
         border-radius: 50% !important;
     }
-    
+
     .wrapper, .wrapper-narrow, .wrapper-permalink {
         width: inherit;
     }
-    
+
     #timeline, .content-main {
         width: 74% !important;
     }
-    
+
     #timeline .profile-card {
         width: 100%;
         margin-bottom: 0 !important;
     }
-    
+
     .body.three-col .wrapper-narrow, body.three-col .wrapper-permalink {
         max-width: 1190px;
         width: inherit !important;
