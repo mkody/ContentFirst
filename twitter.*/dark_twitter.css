@@ -16,7 +16,7 @@
         color: #FFFFFF !important;
     }
 
-    .pushing-state .pushstate-spinner {
+    .pushing-state .pushstate-spinner, .spinner {
         background: url('http://i.imgur.com/m7HhoGq.gif') !important;
     }
 
@@ -35,8 +35,17 @@
         background-color: #000000 !important;
     }
 
-    .u-bgUserColorLightest, .ProfileTweet, .ProfilePage, .ProfileSidebar .WhoToFollow, .ProfileCard, .TwitterPhoto-media {
+    .u-bgUserColorLightest, .ProfileTweet, .ProfilePage, .ProfileSidebar .WhoToFollow, .ProfileCard, .TwitterPhoto-media, .WebToast {
         background-color: #222222 !important;
+        border-color: #313131 !important;
+    }
+    
+    .WebToast-actionBar {
+        border-top: 1px solid #313131 !important;
+    }
+    
+    .WebToast-line {
+        border: none !important;
     }
 
     .u-borderUserColorLight, .ProfileTweet, .ProfileSidebar .WhoToFollow, .ProfileCard {
@@ -70,6 +79,15 @@
         color: #FFF !important;
     }
 
+    .tweet-form .thumbnail-container {
+        background-color: #313131 !important;
+        box-shadow: none !important;
+    }
+    
+    .tweet-form.has-thumbnail .thumbnail-container .preview {
+        border-color: #000000 !important;
+    }
+    
     .message {
         background: rgba(0, 0, 0, 0.97)
     }
@@ -197,7 +215,7 @@
     .DashboardProfileCard-statLabel, .GalleryTweet .tweet-actions > li:not(:hover) b, .GalleryTweet a.with-icn:not(:hover) .Icon, .flag-container .btn-link, .btn-link.translate-button,
     .tweet-form.condensed .tweet-box, .ProfileHeaderCardEditing-item .ProfileHeaderCardEditing-editableField, .ProfileNav-label, .ProfileNav-dropdownCaret:not(:hover), .activity-additional-info,
     .ContextualLink.js-nav.js-tooltip, .ProfileTweet-header, .ProfileListItem-memberCount, .ListCreationModule-description, .ListCreationModule-moreInfoLink:not(:hover), .Icon--logo:before, .ProfileCard-bio,
-    .FollowStatus, .ProfileHeaderCard-bio {
+    .FollowStatus, .ProfileHeaderCard-bio, .WebToast-username.u-dir {
         color: #888888 !important;
     }
 
@@ -205,7 +223,7 @@
     .flag-container .btn-link:hover, .btn-link.translate-button:hover, .with-icn:hover span, .with-icn:focus span, .with-icn:hover b, .with-icn:focus b,
     .ProfileHeaderCardEditing-item .ProfileHeaderCardEditing-editableField:focus, .ProfileNav-value:not(:hover), .ProfileHeading-toggleLink.js-nav:not(:hover), .stream-item-activity-me .latest-tweet .tweet-row,
     .ProfileTweet-text, h2.ProfileHeaderCard-screenname a, .ProfileTweet .ProfileTweet-actionButton:not(:hover), span.ProfilePhotoRail-headingText a,.ProfilePhotoRail-heading, .ListCreationModule-moreInfoLink:hover,
-    .Icon--logo:hover:before {
+    .Icon--logo:hover:before, .WebToast-tweetExcerpt {
         color: #BBBBBB !important;
     }
 
@@ -484,7 +502,7 @@
         width: inherit;
     }
 
-    .DashboardProfileCard-avatarLink, .DashboardProfileCard-avatarImage, .ProfileCard-avatarImage, .ProfileCard-avatarLink {
+    .DashboardProfileCard-avatarLink, .DashboardProfileCard-avatarImage, .ProfileCard-avatarImage, .ProfileCard-avatarLink, .ProfileCardMini-avatarImage {
         border-radius: 50% !important;
         background-color: inherit;
     }
