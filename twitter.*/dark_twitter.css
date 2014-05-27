@@ -215,7 +215,8 @@
     .DashboardProfileCard-statLabel, .GalleryTweet .tweet-actions > li:not(:hover) b, .GalleryTweet a.with-icn:not(:hover) .Icon, .flag-container .btn-link, .btn-link.translate-button,
     .tweet-form.condensed .tweet-box, .ProfileHeaderCardEditing-item .ProfileHeaderCardEditing-editableField, .ProfileNav-label, .ProfileNav-dropdownCaret:not(:hover), .activity-additional-info,
     .ContextualLink.js-nav.js-tooltip, .ProfileTweet-header, .ProfileListItem-memberCount, .ListCreationModule-description, .ListCreationModule-moreInfoLink:not(:hover), .Icon--logo:before, .ProfileCard-bio,
-    .FollowStatus, .ProfileHeaderCard-bio, .WebToast-username.u-dir {
+    .FollowStatus, .ProfileHeaderCard-bio, .WebToast-username.u-dir, .stats th, .ProfileHeaderCard-location, .ProfileHeaderCard-locationText, .ProfileHeaderCard-url, .ProfileHeaderCard-url a,
+    .ScrollBump-title {
         color: #888888 !important;
     }
 
@@ -546,7 +547,7 @@
         color: #888888 !important;
     }
 
-    .btn.small, .btn.icon-btn {
+    .btn.small, .btn.icon-btn, .ProfileCard-actions .edit-button.small .button-text {
         color: #CCCCCC !important;
     }
 
