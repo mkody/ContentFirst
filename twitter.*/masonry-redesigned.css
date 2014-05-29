@@ -1,3 +1,7 @@
+/*
+Design inspired by https://dribbble.com/gregoirevella/projects/191186-Twitter-concept
+Made by shosher8a and theotix
+*/
 @-moz-document regexp("https?://twitter.com/.*") {
 body {
 font:14px/20px Roboto,sans-serif;
