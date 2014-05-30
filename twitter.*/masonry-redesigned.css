@@ -19,7 +19,10 @@ max-width:100%;
 text-align:left;
 padding:9px 0;
 }
-
+.container, .ProfilePage .global-nav .container{
+max-width:100%;
+width:100% !important;;
+}
 .bird-topbar-etched,.pushstate-spinner {
 font-size:30px;
 margin-top:6px;
@@ -315,7 +318,9 @@ margin-left:165px;
 position:absolute;
 left:0;
 }
-
+.AppContainer {
+margin-left: 165px;
+}
 .profile-header .profile-banner-footer {
 padding:0;
 }
