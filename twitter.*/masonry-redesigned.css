@@ -64,6 +64,7 @@ height:46px;
 
 .logged-in .wrapper,.logged-in .wrapper-narrow,.logged-in .wrapper-permalink {
 width:100%!important;
+min-height: 100%;
 float:right;
 box-sizing:border-box;
 min-width:855px;
@@ -106,6 +107,12 @@ width:94%;
 column-count:2;
 column-gap:10px;
 padding:3%;
+}
+
+.permalink-stream #stream-items-id { /* Doesn't fit well with two colums on permalinks conversations */
+-moz-column-count:1;
+-webkit-column-count:1;
+column-count:1;
 }
 
 .stream-items> li.stream-item {
@@ -208,6 +215,10 @@ left:20px;
 top:18px;
 }
 
+.permalink-header .account-group {
+padding-left: 70px;
+}
+
 .conversation-module .conversation-tweet-item .stream-item-header .avatar {
 margin-left:0;
 z-index:300;
@@ -226,6 +237,9 @@ margin:0 -20px;
 overflow:auto;
 display:block;
 height:60px;
+}
+
+.content-main .tweet div.content > .stream-item-header > a {
 padding-left:60px;
 }
 
@@ -267,7 +281,6 @@ background-color:inherit;
 border:1px solid #E2E3E5;
 border-radius:0!important;
 border-width:1px 0 0;
-padding:8%;
 }
 
 .flex-module-header {
@@ -379,6 +392,21 @@ background-color:#568BB3!important;
 background-color:#406886!important;
 }
 
+.content-main .expansion-container .conversation-root .tweet {
+border-radius: 6px 6px 0 0;
+}
+
+.content-main .conversation-ancestor .tweet div.content > .stream-item-header > a,
+.content-main .first-navigable-stream-item .tweet div.content > .stream-item-header > a,
+.content-main .extra-ancestor-after-root .tweet div.content > .stream-item-header > a {
+padding-left: inherit;
+margin-top: 14px;
+}
+
+.content-main .last-navigable-stream-item .tweet div.content > .stream-item-header > a {
+margin-top: 14px;
+}
+
 .content-main .expansion-container .tweet.descendant {
 min-height:32px;
 padding-left:20px;
@@ -423,6 +451,7 @@ box-shadow:0 0 0 2px rgba(108,174,224,0.5);
 
 .home-tweet-box,.rosetta .dm-tweetbox,.rosetta .WebToast-buffer--altColor,.content-main .conversations-enabled .expansion-container .inline-reply-tweetbox {
 margin-bottom:5px;
+margin-top: -6px;
 background-color:#F0F6FB;
 border:1px solid #e1e8ed!important;
 }
