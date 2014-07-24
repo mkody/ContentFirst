@@ -1,0 +1,72 @@
+@-moz-document domain("tweetdeck.twitter.com") {
+    .column-header-link .icon-sliders {
+        vertical-align: 0px!important;
+        font-size: 21px!important;
+    }
+    .column-title {
+        padding-left: 6px;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 100;
+    }
+    .column {
+        margin: 0.5px !important;
+        padding: 0px !important;
+    }
+    .is-narrow-columns .app-columns {
+        width: 229px;
+        padding: 0px;
+    }
+    .tweet-avatar {
+        border-radius: 100%;
+    }
+    .js-column-scroller {
+        width: 106.3%!important;
+    }
+    html,
+    .tweet-body {
+        line-height: 1.2 !important;
+    }
+    .column-header,
+    .column-header-temp {
+        height: 0px!important;
+    }
+    div.column-content {
+        top: 28px!important;
+    }
+    .txt-sub-antialiased {
+        font-size: 13px!important;
+    }
+    .sprite-drag-vertical {
+        height: 13px!important;
+    }
+    .column-title-back .icon {
+        top: 14px!important;
+    }
+    .column-header,
+    .column-header-temp,
+    .txt-ellipsis {
+        line-height: 26px!important;
+    }
+    .compose-title {
+        padding: 0px !important;
+    }
+    .compose-header {
+        height: auto !important;
+    }
+    .compose-accounts {
+        margin: 5px 0px !important;
+    }
+    .padding-hl {
+        padding: 0px 10px !important;
+    }
+    .txt-base-smallest {
+        font-size: 12px;
+    }
+    .column-type-icon {
+        display: none;
+    }
+    .is-actionable {
+        cursor: default;
+    }
+}
