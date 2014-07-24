@@ -1,0 +1,9 @@
+/*
+Made for use with masonry-redesigned.css (this userstyle is in the same folder)
+Made by shosher8a and theotix
+*/
+@-moz-document regexp("https?://twitter.com/.*") {
+div.module.trends, div.module.roaming-module.wtf-module {
+display: none !important;
+}
+}
