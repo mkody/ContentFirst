@@ -443,10 +443,15 @@ box-shadow:0 0 0 3px rgba(108,174,224,0.5);
 box-shadow:0 0 0 2px rgba(108,174,224,0.5);
 }
 
-.home-tweet-box,.rosetta .dm-tweetbox,.rosetta .WebToast-buffer--altColor,.content-main .conversations-enabled .expansion-container .inline-reply-tweetbox {
+.rosetta .dm-tweetbox,.rosetta .WebToast-buffer--altColor,.content-main .conversations-enabled .expansion-container .inline-reply-tweetbox {
 margin-bottom:5px;
 background-color:#F0F6FB;
 border:1px solid #e1e8ed!important;
+}
+
+.home-tweet-box {
+background-color: #F0F6FB;
+border-radius: 0 !important;
 }
 
 .conversations-enabled .inline-reply-caret .caret-inner {
