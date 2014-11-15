@@ -144,6 +144,10 @@ border:none!important;
 margin:4px;
 }
 
+.app {
+padding-left: 70px;
+}
+
 .media-box img {
 height:auto!important;
 width:100%!important;
