@@ -1,6 +1,6 @@
 /*
 Design inspired by https://dribbble.com/gregoirevella/projects/191186-Twitter-concept
-Made by shosher8a and theotix
+Made by shosher8a and theotix, updated by mkody
 */
 body {
 font:14px/20px Roboto,sans-serif;
@@ -165,6 +165,10 @@ border:1px solid #EAECEB;
 border-radius:6px;
 color:#AAA;
 padding:18px 20px;
+}
+
+.tweet>.context {
+margin-left: 85px;
 }
 
 .stream-item-activity-line-me {
