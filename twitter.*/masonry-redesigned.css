@@ -183,6 +183,10 @@ color:#AAA;
 padding:18px 20px;
 }
 
+.tweet>.context {
+margin-left: 85px;
+}
+
 .stream-item-activity-line-me {
 padding:10px 20px 5px 27px;
 }
