@@ -1,8 +1,8 @@
+@-moz-document regexp("https?://twitter.com/.*") {
 /*
 Design inspired by https://dribbble.com/gregoirevella/projects/191186-Twitter-concept
 Made by shosher8a and theotix, updated by mkody
 */
-@-moz-document regexp("https?://twitter.com/.*") {
 body {
 font:14px/20px Roboto,sans-serif;
 color:#333;
@@ -161,7 +161,7 @@ width:100%!important;
 flex:0 1 auto;
 }
 
-.content-main .grid-tweet[scaled-width=574] {
+.content-main .grid-tweet[scaled-width="574"] {
 width:100%!important;
 }
 
