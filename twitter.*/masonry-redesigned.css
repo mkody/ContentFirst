@@ -1,6 +1,6 @@
 /*
 Design inspired by https://dribbble.com/gregoirevella/projects/191186-Twitter-concept
-Made by shosher8a and theotix
+Made by shosher8a and theotix, updated by mkody
 */
 @-moz-document regexp("https?://twitter.com/.*") {
 body {
@@ -144,8 +144,24 @@ border:none!important;
 margin:4px;
 }
 
+.search-stream .stream-user-item .social-proof {
+margin-left: 70px;
+}
+
+.search-stream .stream-item .content {
+margin-left: 70px;
+}
+
+.stream-item .account .content {
+margin-left: 75px;
+}
+
 .app {
 padding-left: 70px;
+}
+
+.cards-base img {
+margin: 0 auto;
 }
 
 .media-box img {
