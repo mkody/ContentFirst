@@ -68,7 +68,7 @@ height:50px;
 height:46px;
 }
 
-.logged-in .wrapper,.logged-in .wrapper-narrow,.logged-in .wrapper-permalink {
+.logged-in .wrapper,.logged-in .wrapper-narrow,.logged-in .wrapper-permalink .permalink-container {
 width:100%!important;
 min-height: 100%;
 float:right;
@@ -76,6 +76,15 @@ box-sizing:border-box;
 min-width:855px;
 background:#F5F6F8!important;
 padding:59px 0 0 155px;
+}
+
+.logged-in .wrapper-permalink .permalink-container {
+padding:0 0 10px;
+}
+
+.permalink-in-reply-tos+.permalink-inner .permalink-tweet,
+.permalink .inline-reply-tweetbox {
+border-radius:0;
 }
 
 .dashboard {
@@ -306,7 +315,7 @@ border-bottom:1px solid #E2E3E5;
 
 .Icon--mediaplay:before {
 height:60px;
-line-height:50px;
+line-height:80px;
 }
 
 .content-main .stream-container .media-thumbnail.grid-tweet {
