@@ -329,8 +329,8 @@ border-bottom:1px solid #E2E3E5;
 }
 
 .Icon--mediaplay:before {
-height:80px;
-line-height:50px;
+height:60px;
+line-height:80px;
 }
 
 .content-main .stream-container .media-thumbnail.grid-tweet {
