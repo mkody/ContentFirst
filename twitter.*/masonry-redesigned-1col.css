@@ -141,6 +141,11 @@ border:none!important;
 margin:4px;
 }
 
+.wrapper-search .Grid-cell .u-size2of3,
+.AdaptiveSearchPage.three-col .content-main {
+width: 100%!important;
+}
+
 .search-stream .stream-user-item .social-proof {
 margin-left: 70px;
 }
@@ -356,9 +361,6 @@ width:65.2%;
 margin-left:165px;
 position:absolute;
 left:0;
-}
-.AppContainer {
-margin-left: 165px;
 }
 .profile-header .profile-banner-footer {
 padding:0;
@@ -581,5 +583,4 @@ background-color:#A6CEEC;
   font-weight: 700;
   src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/t6Nd4cfPRhZP44Q5QAjcC4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
-
 }
