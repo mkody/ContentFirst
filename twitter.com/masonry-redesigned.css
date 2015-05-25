@@ -371,6 +371,10 @@ position:absolute;
 margin-top:295px;
 }
 
+.ProfilePage .AppContent {
+margin-left: 165px;
+}
+
 .route-profile .profile-card.profile-header {
 width:65.2%;
 margin-left:165px;
